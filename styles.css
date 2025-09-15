@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*text*/
+h1{
+    font-family:"DM Serif Display", Serif;
+    font-size: 4rem;
+    color: #132243;
+    margin: 5px;
+    font-weight: 900;
+}
+h2{
+    font-family:"Inter", Sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+h3 {
+    font-family:"Inter", Sans-serif;
+    font-size: 2rem;
+    color: #6D81C1;
+    font-weight: 600;
+    margin: 5px;
+}
+h4 {
+    font-family:"Inter", Sans-serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    margin: 10px;
+}
+h5 {
+    font-family:"DM Serif Display", Serif;
+    font-size: 3rem;
+    color: #132243;
+    margin: 5px;
+    font-weight: 400;
+}
+
+/*body*/
+
+body {
+    background-color: #FFFFFF;
+}
+
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #ff9c11;
+}
+
+.header img {
+    width: 700px;
+    height: auto;
+    margin: 0px;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 5px 50px;
+    background-color: #132243;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.nav-item h2 {
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.apply-now {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.apply-now img{
+    border: 6px solid #6D81C1;
+    border-radius: 2rem;
+}
+
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 500px;
+}
+
+.apply-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color:#ff9c11;
+    border-radius: 9999px;
+    border: 0px;
+    padding: 10px 30px;
+    margin: 50px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.apply-btn:hover {
+    background-color: #e6890d;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+}
+
+.benefits h1{
+    font-size: 3rem;
+    color: #132243;
+    margin: 0px;
+    font-weight: 400;
+    border-bottom: 3px solid #ff9c11;
+    line-height: 1.2;
+    padding-bottom: 6px; 
+}
+
+.benefits img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content:space-evenly;
+    gap: 10px;
+    padding: 25px 10px 50px 10px;
+}
+
+.flex-container>div{
+    flex: 1;
+    border: 1px solid #FFFFFF;
+}
+
+.card {
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #132243;
+    border-bottom: 2px solid #6D81C1;
+    padding-bottom: 5px;
+    width: 100%; /* makes border span full card width */
+}
+
+.card p {
+    margin: 0;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #132243;
+    padding: 20px 100px;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+footer h5 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
